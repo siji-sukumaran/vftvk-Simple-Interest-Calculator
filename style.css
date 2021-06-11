@@ -1,4 +1,44 @@
-body {background-color:tan;}
-h1{color:green;}
-
+body {
+    background-color: black;
+    font-family: arial;
+    color: white;
+    font-size: 0.8em;
+}
+h1{
+    color: grey;
+    font-family:verdana;
+}
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 400px;
+    padding: 20px;
+    border-radius: 25px;
+    align: center;
+}
+.subDiv {
+    margin: 0 0 0 60px;
+}
+.clsPrinc, .clsRate, .clsYr {
+    margin: 10px 0 10px 0;
+}
+.subDiv button {
+    margin: 10px 0 10px 0;
+}
+.clsResult {
+    margin: 10px 0 10px 60px;
+}
+h4 {
+    padding: 0;
+    margin: 0;
+}
+.clsNoDisp {
+    display: none;
+}
+.clsDisp {
+    display: block;
+}
+.clsResult span {
+    background-color: yellow;
+}
 
